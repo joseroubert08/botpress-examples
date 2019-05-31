@@ -4,7 +4,7 @@
   "description": "This is a tutorial to show how to use Wit.ai on Botpress",
   "main": "index.js",
   "dependencies": {
-    "axios": "^0.15.3",
+    "axios": "^0.19.0",
     "bluebird": "^3.4.6",
     "botpress": "0.x",
     "botpress-messenger": "^1.0.13",
