@@ -5,12 +5,16 @@
   "main": "index.js",
   "dependencies": {
     "botpress": "0.x",
-    "botpress-messenger": "^1.0.9"
+    "botpress-messenger": "^1.0.9",
+    "snyk": "^1.189.0"
   },
   "scripts": {
     "start": "botpress start",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": "Botpress",
-  "license": "AGPL-3.0"
+  "license": "AGPL-3.0",
+  "snyk": true
 }
