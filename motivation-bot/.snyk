@@ -1,0 +1,38 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-450202:
+    - botpress > knex > lodash:
+        patched: '2019-07-04T08:01:42.034Z'
+    - lodash:
+        patched: '2019-07-04T08:01:42.034Z'
+    - botpress-scheduler > lodash:
+        patched: '2019-07-04T08:01:42.034Z'
+    - botpress-rivescript > lodash:
+        patched: '2019-07-04T08:01:42.034Z'
+    - botpress-messenger > lodash:
+        patched: '2019-07-04T08:01:42.034Z'
+    - botpress-broadcast > lodash:
+        patched: '2019-07-04T08:01:42.034Z'
+    - botpress > lodash:
+        patched: '2019-07-04T08:01:42.034Z'
+    - botpress-analytics > lodash:
+        patched: '2019-07-04T08:01:42.034Z'
+    - botpress-subscription > lodash:
+        patched: '2019-07-04T08:01:42.034Z'
+    - botpress > email-templates > lodash:
+        patched: '2019-07-04T08:01:42.034Z'
+    - botpress-scheduler > validate-arguments > lodash:
+        patched: '2019-07-04T08:01:42.034Z'
+    - botpress-subscription > validate-arguments > lodash:
+        patched: '2019-07-04T08:01:42.034Z'
+    - botpress > node-sass > sass-graph > lodash:
+        patched: '2019-07-04T08:01:42.034Z'
+    - botpress-messenger > ngrok > async > lodash:
+        patched: '2019-07-04T08:01:42.034Z'
+    - botpress > node-sass > gaze > globule > lodash:
+        patched: '2019-07-04T08:01:42.034Z'
+    - botpress > email-templates > juice > web-resource-inliner > async > lodash:
+        patched: '2019-07-04T08:01:42.034Z'
