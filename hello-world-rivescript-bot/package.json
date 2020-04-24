@@ -4,14 +4,18 @@
   "description": "Botpress example of a simple hello world!",
   "main": "index.js",
   "dependencies": {
-    "botpress": "0.x",
+    "botpress": "10.20.1",
     "botpress-messenger": "^1.0.8",
-    "botpress-rivescript": "^1.0.10"
+    "botpress-rivescript": "^1.0.10",
+    "snyk": "^1.310.0"
   },
   "scripts": {
     "start": "botpress start",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": "Botpress Team",
-  "license": "AGPL-3.0"
+  "license": "AGPL-3.0",
+  "snyk": true
 }
