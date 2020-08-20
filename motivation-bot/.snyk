@@ -1,0 +1,54 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.19.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - botpress > socket.io > debug:
+        patched: '2020-08-20T07:57:19.073Z'
+    - botpress > socket.io > engine.io > debug:
+        patched: '2020-08-20T07:57:19.073Z'
+    - botpress > socket.io > socket.io-adapter > debug:
+        patched: '2020-08-20T07:57:19.073Z'
+    - botpress > socket.io > socket.io-client > debug:
+        patched: '2020-08-20T07:57:19.073Z'
+    - botpress > socket.io > socket.io-client > engine.io-client > debug:
+        patched: '2020-08-20T07:57:19.073Z'
+    - botpress > socket.io > socket.io-parser > debug:
+        patched: '2020-08-20T07:57:19.073Z'
+    - botpress > socket.io > socket.io-adapter > socket.io-parser > debug:
+        patched: '2020-08-20T07:57:19.073Z'
+    - botpress > socket.io > socket.io-client > socket.io-parser > debug:
+        patched: '2020-08-20T07:57:19.073Z'
+  'npm:hoek:20180212':
+    - botpress > jsonwebtoken > joi > hoek:
+        patched: '2020-08-20T07:57:19.073Z'
+    - botpress > jsonwebtoken > joi > topo > hoek:
+        patched: '2020-08-20T07:57:19.073Z'
+    - botpress > sqlite3 > node-pre-gyp > hawk > hoek:
+        patched: '2020-08-20T07:57:19.073Z'
+    - botpress > sqlite3 > node-pre-gyp > hawk > boom > hoek:
+        patched: '2020-08-20T07:57:19.073Z'
+    - botpress > sqlite3 > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2020-08-20T07:57:19.073Z'
+    - botpress > sqlite3 > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2020-08-20T07:57:19.073Z'
+  'npm:ms:20170412':
+    - botpress > ms:
+        patched: '2020-08-20T07:57:19.073Z'
+    - botpress > socket.io > debug > ms:
+        patched: '2020-08-20T07:57:19.073Z'
+    - botpress > socket.io > engine.io > debug > ms:
+        patched: '2020-08-20T07:57:19.073Z'
+    - botpress > socket.io > socket.io-adapter > debug > ms:
+        patched: '2020-08-20T07:57:19.073Z'
+    - botpress > socket.io > socket.io-client > debug > ms:
+        patched: '2020-08-20T07:57:19.073Z'
+    - botpress > socket.io > socket.io-client > engine.io-client > debug > ms:
+        patched: '2020-08-20T07:57:19.073Z'
+    - botpress > socket.io > socket.io-parser > debug > ms:
+        patched: '2020-08-20T07:57:19.073Z'
+    - botpress > socket.io > socket.io-adapter > socket.io-parser > debug > ms:
+        patched: '2020-08-20T07:57:19.073Z'
+    - botpress > socket.io > socket.io-client > socket.io-parser > debug > ms:
+        patched: '2020-08-20T07:57:19.073Z'
