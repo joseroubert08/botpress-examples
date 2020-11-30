@@ -6,14 +6,18 @@
   "dependencies": {
     "axios": "^0.15.3",
     "bluebird": "^3.4.6",
-    "botpress": "0.x",
+    "botpress": "10.20.1",
     "botpress-messenger": "^1.0.13",
-    "botpress-wit": "^1.0.2"
+    "botpress-wit": "^1.0.2",
+    "snyk": "^1.431.4"
   },
   "scripts": {
     "start": "botpress start",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": "Botpress",
-  "license": "AGPL-3.0"
+  "license": "AGPL-3.0",
+  "snyk": true
 }
