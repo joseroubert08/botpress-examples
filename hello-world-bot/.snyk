@@ -1,0 +1,10 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.21.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - botpress > sqlite3 > node-pre-gyp > hawk > boom > hoek:
+        patched: '2021-09-05T03:53:14.651Z'
+    - botpress > sqlite3 > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2021-09-05T03:53:14.651Z'
