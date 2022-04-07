@@ -9,7 +9,7 @@
     "botpress": "0.x",
     "botpress-analytics": "^1.0.7",
     "botpress-broadcast": "^1.0.9",
-    "botpress-messenger": "^1.0.8",
+    "botpress-messenger": "^2.2.0",
     "botpress-rivescript": "^1.0.10",
     "botpress-scheduler": "^1.0.1",
     "botpress-subscription": "^1.0.2",
