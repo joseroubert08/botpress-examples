@@ -4,7 +4,7 @@
   "description": "Tutorial of a simple hello world bot.",
   "main": "index.js",
   "dependencies": {
-    "botpress": "0.x",
+    "botpress": "2.0.0",
     "botpress-messenger": "^1.0.9"
   },
   "scripts": {
